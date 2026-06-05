@@ -1,0 +1,14 @@
+# Environments
+.env
+venv/
+
+# Python caching
+__pycache__/
+*.pyc
+
+# macOS system files
+.DS_Store
+
+# Data and Vector databases
+data/
+embeddings/
