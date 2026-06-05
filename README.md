@@ -71,22 +71,22 @@ embeddings/
 Скрипти мають виконуватися в наступній логічній послідовності і повертати такі результати:
 
 1. `python3 scripts/01_prepare_data.py` (Завантаження та підготовка даних)
-<img src="images_4_readme/01.png" alt="Результат відпрацювання скрипту 01_prepare_data.py" width="800"/>
+<img src="images_4_readme/01.png" alt="Результат відпрацювання скрипту 01_prepare_data.py" width="1000"/>
 
 2. `python3 scripts/02_embed.py` (Генерація векторних ембеддингів)
-<img src="images_4_readme/02.png" alt="Результат відпрацювання скрипту 02_embed.py" width="800"/>
+<img src="images_4_readme/02.png" alt="Результат відпрацювання скрипту 02_embed.py" width="1000"/>
 
 3. `python3 scripts/03_load_to_pinecone.py` (Створення індексу та завантаження даних у Pinecone)
-<img src="images_4_readme/03.png" alt="Результат відпрацювання скрипту 03_load_to_pinecone.py" width="800"/>
+<img src="images_4_readme/03.png" alt="Результат відпрацювання скрипту 03_load_to_pinecone.py" width="1000"/>
 
 4. `python3 scripts/04_search.py` (Семантичний пошук, пошук з фільтрацією та локальні метрики)
-<img src="images_4_readme/04.png" alt="Результат відпрацювання скрипту 04_search.py" width="800"/>
+<img src="images_4_readme/04.png" alt="Результат відпрацювання скрипту 04_search.py" width="1000"/>
 
 5. `python3 scripts/05_chunking.py` (Розбиття тексту на чанки та тестування)
-<img src="images_4_readme/05.png" alt="Результат відпрацювання скрипту 05_chunking.py" width="800"/>
+<img src="images_4_readme/05.png" alt="Результат відпрацювання скрипту 05_chunking.py" width="1000"/>
 
 6. `python3 scripts/06_hybrid_search.py` (Гібридний пошук: BM25 + Vector + RRF)
-<img src="images_4_readme/06.png" alt="Результат відпрацювання скрипту 06_hybrid_search.py" width="800"/>
+<img src="images_4_readme/06.png" alt="Результат відпрацювання скрипту 06_hybrid_search.py" width="1000"/>
 
 ---
 
